@@ -17,7 +17,7 @@ Appropriately label the data set with descriptive variable names.
 *run_analysis.R* performs the following steps.
 
 1. Download and unzip UCI HAR Dataset
-   (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 2. Read features data set into a data frame
 
