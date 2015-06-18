@@ -50,7 +50,8 @@ df <- merge(df, activity, by.x = "activity_id", by.y = "activity_id") %>%
 # and each subject.  Chose aggregate over tapply because aggregate returns a data.frame.
 tidy <- aggregate(df[,c(3:68)], list(df$subject, df$activity), mean) %>% 
   rename(subject = Group.1) %>%
-  rename(activity = Group.2)
+  rename(activity = Group.2) %>%
+  arrange(subject, activity)
 
 # 12. Write tidy data set to week3_course_project.txt
 write.table(tidy, file="week3_course_project.txt", row.name=FALSE)
