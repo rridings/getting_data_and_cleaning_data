@@ -46,6 +46,7 @@ columns with names that contained "mean()" or "std()".
 
 
 To view the tidy data set in R use the following code snippet.
-
+```
 data <- read.table("week3_course_project.txt", header = TRUE)
 View(data)
+```
