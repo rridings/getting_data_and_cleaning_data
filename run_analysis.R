@@ -3,10 +3,8 @@ library(dplyr)
 library(data.table)
 
 filename <- "getdata_projectfiles_UCI HAR Dataset.zip"
-url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" 
-
-# 1. Download and unzip UCI HAR Dataset
-#download.file(url, dest=filename, method="curl")
+ 
+# 1. Unzip UCI HAR Dataset
 unzip(filename, exdir = "./")
 
 # 2. Read features data set into a data frame
