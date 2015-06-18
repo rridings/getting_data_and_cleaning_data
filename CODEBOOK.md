@@ -1,11 +1,6 @@
 
 ##CODEBOOK for Getting Data and Cleaning Data Course Project##
 
-<br>
-<br>
-<br>
-<br>
-<br>
 
 ### Description ###
 
@@ -18,10 +13,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The experiement involved 30 individuals wearing smart phones at their waist and performing five different activities.  These activities were performed multiple times per individual.
 
 The run_analysis.R script transforms the source datasets into a "tidy data set" containing the subject (individual), the activity and the average over the numbers of times the subject performed the activity of several mean and standard deviation calculations on the readings from acceleromator and gyroscope in the smart phone.
-<br>
-<br>
-<br>
-<br>
+
 
 ### Data Elements ###
 
